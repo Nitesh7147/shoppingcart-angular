@@ -1,0 +1,17 @@
+.example-spacer{
+    flex: 1 1 auto;
+}
+
+/* .mat-icon-button{
+    margin-left: 1000px;
+    color: white;
+} */
+
+img.pic{
+    height: 80px;
+    margin-left: 50px;
+}
+.one{
+    margin-right: 20px;
+}
+

@@ -1,0 +1,53 @@
+.full-width{
+    width: 60%;
+}
+.mat-raised-button{
+    height: 30pt;
+    width: 60%;
+    border-radius: 0%;
+}
+
+.example-spacer{
+    flex: 1 1 auto;
+}
+
+
+
+img.pic{
+    height: 80px;
+    margin-left: 50px;
+}
+.one{
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .mat-raised-button{
+    height: 30pt;
+    width: 70%;
+    border-radius: 0%;
+}
+
+.card{
+    margin-left: 400px;
+    margin-right: 400px;
+    background: lightcoral;
+    
+    
+}
+put::placeholder{
+    font-size: medium;
+}
+.container{
+    text-align: center;
+} */

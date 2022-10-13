@@ -1,0 +1,12 @@
+.example-spacer{
+    flex: 1 1 auto;
+}
+
+img.pic{
+    height: 80px;
+    margin-left: 50px;
+}
+.one{
+    margin-right: 20px;
+}
+

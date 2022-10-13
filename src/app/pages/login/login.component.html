@@ -1,0 +1,126 @@
+<mat-toolbar color="primary">
+    <img class="pic" src="assets/images/cart.png" />
+     <span class="example-spacer"></span>
+     <i class= "one fas fa-shopping-cart" aria-hidden="true"></i>
+ </mat-toolbar>
+
+<div class="bootstrap-wrapper text-center">
+    <div class="container mt20">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+
+
+                <mat-card >
+                <!-- form -->
+                <!-- <form [formGroup]="loginForm" <form [formGroup]="loginForm" > -->
+                <form [formGroup]="loginForm" >
+                     <!-- <mat-form-field class="full-width" appearance="outline">
+                        <mat-label>User ID</mat-label>
+                        <input name="userid" ngModel required  type="email" #name="ngModel" matInput />  
+                        <span *ngIf="userid && userid.invalid && userid.touched" style="color: red;">Please enter valid Email</span>
+                    </mat-form-field>  -->
+
+                    <mat-form-field class="full-width" appearance="outline" >
+                        <mat-label>User ID</mat-label> 
+                          <input name="userid" ngModel required  type="email" [(ngModel)]="loginForm.userid"  required matInput
+                          formControlName="userid" />  
+                        <span *ngIf="userid && userid.invalid && userid.touched" style="color: red;">Please enter valid Email</span>
+                    </mat-form-field> 
+
+                    <mat-form-field class="full-width" appearance="outline">
+                        <mat-label>Password</mat-label>
+                        <input name="password" ngModel required type="password" [(ngModel)]="loginForm.password"
+                        matInput [type]="hide ? 'password':'text'" />
+                        <i class="material-icons" matSuffix (click)="hide = !hide">{{hide ? 'visibility':'visibility_off'}}</i>
+                        <span *ngIf="password && password.invalid && password.touched" style="color: red;">
+                            Please enter valid Password</span>
+                    </mat-form-field> 
+
+                    <!-- <div class=" mt20 mb20">
+                        <input placeholder="User ID" type="text"  
+                           formControlName="user" style="width:300px;height:40px;font-size:13pt;"> 
+                        <br/><span *ngIf="user && user.invalid && user.touched" style="color: red;">Please enter valid Email</span>
+                    </div>   -->
+
+
+                    <!-- <div class=" mt20 mb20">
+                        <input placeholder="Password" formControlName="password" type="password" 
+                        style="width:300px;height:40px;font-size:13pt;"> 
+                        <br/><span *ngIf="password && password.invalid && password.touched" style="color: red;">
+                             Please enter valid Password</span>
+                    </div>  -->
+                    
+                    
+
+                     <!-- <mat-form-field class="full-width" appearance="outline">
+                        <mat-label>Password</mat-label>
+                        <input name="password" ngModel required type="password" #name="ngModel"
+                        matInput [type]="hide ? 'password':'text'" />
+                        <i class="material-icons" matSuffix (click)="hide = !hide">{{hide ? 'visibility':'visibility_off'}}</i>
+                        <span *ngIf="password && password.invalid && password.touched" style="color: red;">
+                            Please enter valid Password</span>
+                    </mat-form-field>  -->
+                    
+                    <div class="mt20 mb20">
+                        <button  [disabled]="loginForm.invalid" (click)="saveCall()"
+                        mat-raised-button color="primary" type="submit">CONTINUE</button>
+                    </div>
+                            
+
+                </form>
+            </mat-card>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<div class="bootstrap-wrapper">
+    <div class="container text-center">
+        <div class="row mt20">
+            <div class="col-md 6 offset-md-3">
+                <mat-card class="card text-center">
+                    <form (ngSubmit)="onSubmit()" >
+
+                        <div class=" mt20">
+                            
+                            <input placeholder="User ID" style="width:300px;height:40px;font-size:13pt;"> 
+                        </div>
+                        <div class=" mt20 mb20">
+                            <input type="password" placeholder="Password" style="width:300px;height:40px;font-size:13pt;">
+                        </div>
+
+                        <div class="mt40 mb20">
+                            <button mat-raised-button color="primary" type="submit">CONTINUE</button>
+                        </div>
+
+                    </form>
+                </mat-card>
+            </div>
+        </div>
+    </div>
+</div> -->

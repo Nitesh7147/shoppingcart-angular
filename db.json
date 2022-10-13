@@ -1,0 +1,88 @@
+{
+   "api":{
+    "products": [
+        {
+            "item_Cost": 1230,
+            "sku": 2294756,
+            "item_Quantity": 23,
+            "mrf_Number": "xyz",
+            "item_Id": 3,
+            "vendor_Number": 123,
+            "item_Description": "Great Neck 8 oz Milled Face Curved Claw Hammer Fiberglass Handle",
+            "imageUrl": "assets/images/ham1.jfif"
+        },
+
+        {
+            "item_Cost": 234,
+            "sku": 2307247,
+            "item_Quantity": 12,
+            "mrf_Number": "xyz",
+            "item_Id": 1,
+            "vendor_Number": 111,
+            "item_Description": "DeWalt 12 oz Smooth Face MIG Weld Nailing Hammer Steel Handle",
+            "imageUrl": "assets/images/ham2.jfif"
+        },
+        
+        {
+            "item_Cost": 2345,
+            "sku": 2323856,
+            "item_Quantity": 34,
+            "mrf_Number": "xyz",
+            "item_Id": 2,
+            "vendor_Number": 121,
+            "item_Description": "DeWalt 14 oz Smooth Face Framing Hammer 16 in. Steel Handle",
+            "imageUrl": "assets/images/ham3.jfif"
+        },
+        {
+            "item_Cost": 2345,
+            "sku": 2323856,
+            "item_Quantity": 34,
+            "mrf_Number": "xyz",
+            "item_Id": 2,
+            "vendor_Number": 121,
+            "item_Description": "Vaughan 20 oz Smooth Face Rip Hammer 16 in. Hickory Handle",
+            "imageUrl": "assets/images/ham4.jfif"
+        },
+        {
+            "item_Cost": 2345,
+            "sku": 2323856,
+            "item_Quantity": 34,
+            "mrf_Number": "xyz",
+            "item_Id": 2,
+            "vendor_Number": 121,
+            "item_Description": "Estwing 29 oz Smooth Face Framing Hammer Steel Handle",
+            "imageUrl": "assets/images/ham5.jfif"
+        },
+        {
+            "item_Cost": 234,
+            "sku": 2307247,
+            "item_Quantity": 12,
+            "mrf_Number": "xyz",
+            "item_Id": 1,
+            "vendor_Number": 111,
+            "item_Description": "Estwing 3 lb Steel Drilling Hammer 9 in. Steel Handle",
+            "imageUrl": "assets/images/ham6.jfif"
+        },
+        {
+            "item_Cost": 234,
+            "sku": 2307247,
+            "item_Quantity": 12,
+            "mrf_Number": "xyz",
+            "item_Id": 1,
+            "vendor_Number": 111,
+            "item_Description": "Nupla 1.5 lb Brass Sledge Hammer 12 in. Fiberglass Handle",
+            "imageUrl": "assets/images/ham7.jfif"
+        },
+        {
+            "item_Cost": 234,
+            "sku": 2307247,
+            "item_Quantity": 12,
+            "mrf_Number": "xyz",
+            "item_Id": 1,
+            "vendor_Number": 111,
+            "item_Description": "Nupla Nuplaglas 3 lb Steel Hand Drill Hammer 10 in. Fiberglass Handle",
+            "imageUrl": "assets/images/ham8.jfif"
+        }
+    ]
+   }
+}
