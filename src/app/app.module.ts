@@ -7,7 +7,6 @@ import { LoginComponent } from './pages/login/login.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatCardModule } from '@angular/material/card';
-import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -25,7 +24,6 @@ import { ProductService } from './services/product.service';
   declarations: [
     AppComponent,
     LoginComponent,
-    NavbarComponent,
     HomeComponent,
     DashboardComponent,
     

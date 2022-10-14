@@ -1,3 +1,5 @@
+
+
 <mat-toolbar color="primary">
     
     
@@ -24,8 +26,8 @@
                             <a class="primary-btn">Add to Cart</a>
                              <br>
                              <a class style="color: red; ">SKU: {{tempProduct.sku}}</a><br>
-                             <a >Vendor: {{tempProduct.vendor_Number}}</a><br>
-                             <a >Cost: {{tempProduct.item_Cost}}</a><br>
+                             <a>Vendor: {{tempProduct.vendor_Number}}</a><br>
+                             <a><strong>Cost: </strong>{{tempProduct.item_Cost | currency: 'INR'}}</a><br>
                         </div>
                     </mat-card>
              </div> 
